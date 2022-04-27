@@ -27,6 +27,7 @@ If you use osx system, you can install them by `brew install python3` and `brew 
 
 Now, on the email sending screen (when you already wrote the markdown text and saved it) type `m`. The markdown text file was converted to multipart attachments (Maby be multipart/alternative or multipart/related). The related inline image was attached too. (Note: The markdonw image path must be absolute.)
 
+![multipart/related email](screenshots/multipart_related.png "multipart/related email")
 
 # Issues
 
