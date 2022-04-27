@@ -29,6 +29,19 @@ Now, on the email sending screen (when you already wrote the markdown text and s
 
 ![multipart/related email](screenshots/multipart_related.png "multipart/related email")
 
+You can view original html by following bind. (osx use `open` command, you can change it to yourself.)
+
+```
+# open above msg.html file
+macro compose O \
+"\
+<shell-escape>open /tmp/msg.html&<enter> \
+" "open attach with default application"
+
+```
+
+
+
 # Issues
 
 1. You might need to make the script executable if you have error about permissions.
