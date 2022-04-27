@@ -28,12 +28,12 @@ If you use osx system, you can install them by `brew install python3` and `brew 
 Now, on the email sending screen (when you already wrote the markdown text and saved it) type `m`. The markdown text file was converted to multipart attachments (Maby be multipart/alternative or multipart/related). The related inline image was attached too. (Note: The markdonw image path must be absolute.)
 
 
-Issues
+# Issues
 
 1. You might need to make the script executable if you have error about permissions.
 1. If your markdown file contains inline images, the path must be absolute.
 
 
-References
+# References
 
 https://github.com/anufrievroman/Neomutt-File-Picker/blob/master/filepicker
