@@ -44,7 +44,7 @@ def write_macro_instructions(plain_filename, html_filename, related_cid, out_fil
 
     instructions = 'push ';
     if len(related_cid) == 0:
-        instructions += '<attach-file>{0}<enter><tag-entry><attach-file>{1}<enter><tag-entry><group-alternatives>'.format(plain_filename, html_filename)
+        instructions += '<attach-file>{0}<enter><toggle-disposition><tag-entry><attach-file>{1}<enter><toggle-disposition><tag-entry><group-alternatives>'.format(plain_filename, html_filename)
     else:
         instructions += '<attach-file>{0}<enter><toggle-disposition><tag-entry><attach-file>{1}<enter><toggle-disposition><tag-entry><group-alternatives><tag-entry>'.format(plain_filename, html_filename)
         for k,v in related_cid.items():
